@@ -15,8 +15,7 @@ while(abfrage == True):
     #Input
     match(input):
         case "1":
-            #Funktion
-            BarbarasFunktion()
+            DeniseFunktion()
             abfrage
             break
         case "2":
@@ -30,4 +29,8 @@ while(abfrage2 == True):
 #Ende Tschüss
 
 def BarbarasFunktion():
-    #Barbaras Code
+    return
+
+def DeniseFunktion():
+    print("Habt einen Schönen Tag.")
+   
