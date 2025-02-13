@@ -21,8 +21,8 @@ def BarbarasFunktion():
 
 abfrage = True
 
-def BarbarasFunktion():
-    return
+def DeniseFunktion():
+    print("Habt einen Schönen Tag.")
 
 def SophiesFunktion():
     print("Sophie war hier")
@@ -33,6 +33,7 @@ while(abfrage == True):
     eingabe = input()
     match(eingabe):
         case "1":
+            DeniseFunktion()
         case "2":
             BarbarasFunktion()
         case "3":
@@ -63,3 +64,5 @@ while(abfrage == True):
 
 print("Danke, tüdeldüh")
 #Ende Tschüss
+
+   
