@@ -43,7 +43,7 @@ while(abfrage == True):
             abfrage = False
             break
         case _:
-            print("Antwort nicht erkannt, bitte erneut wählen:\n")
+            print("Antwort nicht erkannt, wähl was 'gscheids!\n")
             abfrage = True
             continue         
     abfrage2 = True
@@ -51,10 +51,10 @@ while(abfrage == True):
     eingabe = input().strip().lower()
     while(abfrage2 == True):
         if eingabe == "ja":
+            print("Alles klar, noch eine Runde")
             abfrage2 = False
             abfrage = True
         elif eingabe == "nein":
-            print("Alles klar, noch eine Runde")
             abfrage = False
             abfrage2 = False
         else:
